@@ -1,0 +1,67 @@
+# myproject.proteinortho.tsv statistics:
+# number of groups that contains at least p% species:
+# p	species	groups	genes in groups
+0%	0	5081 (100%)	21798 (100%)	
+20%	1	5081 (100%)	21798 (100%)	
+30%	2	5081 (100%)	21798 (100%)	
+40%	3	3485 (68.58%)	18442 (84.6%)	
+50%	4	2784 (54.79%)	16252 (74.55%)	
+70%	5	2239 (44.06%)	13983 (64.14%)	
+80%	6	1538 (30.26%)	10400 (47.71%)	
+90%	7	721 (14.19%)	5410 (24.81%)	
+100%	8	128 (2.51%)	1134 (5.2%)	
+# NOTE: p=100% correspond to the core proteome and p=0% to all groups
+# number of groups for each input species:
+Pv_new.faa	3499	68.86%
+Pc_new.faa	3452	67.93%
+Py_new.faa	3230	63.57%
+Pf_new.faa	3107	61.14%
+Pb_new.faa	2733	53.78%
+Pk_new.faa	2421	47.64%
+Ht_new.faa	1848	36.37%
+Tg_new.faa	767	15.09%
+
+# ----------------------------------
+# graph file statistics:
+
+# The adjacency matrix, the number of edges between 2 species
+# file	Ht_new.faa	Pb_new.faa	Pc_new.faa	Pf_new.faa	Pk_new.faa	Pv_new.faa	Py_new.faa	Tg_new.faa	
+Ht_new.faa	0	799	886	933	659	944	963	439
+Pb_new.faa	799	0	1227	1313	907	1273	1578	543
+Pc_new.faa	886	1227	0	1466	1250	1887	1452	616
+Pf_new.faa	933	1313	1466	0	1104	1549	1523	622
+Pk_new.faa	659	907	1250	1104	0	1274	1112	409
+Pv_new.faa	944	1273	1887	1549	1274	0	1462	695
+Py_new.faa	963	1578	1452	1523	1112	1462	0	605
+Tg_new.faa	439	543	616	622	409	695	605	0
+
+# file	average number of edges
+Ht_new.faa	702.875	
+Pb_new.faa	955	
+Pc_new.faa	1098	
+Pf_new.faa	1063.75	
+Pk_new.faa	839.375	
+Pv_new.faa	1135.5	
+Py_new.faa	1086.875	
+Tg_new.faa	491.125	
+
+# The 2-path matrix, the number of paths between 2 species of length 2
+# file	Ht_new.faa	Pb_new.faa	Pc_new.faa	Pf_new.faa	Pk_new.faa	Pv_new.faa	Py_new.faa	Tg_new.faa	
+Ht_new.faa(0)	4739393	5869567	6621929	6277462	5315288	6686803	6346784	3068185
+Pb_new.faa(1)	11739134	9096010	8794417	8258494	7108468	8943381	7748965	4133667
+Pc_new.faa(2)	13243858	17588834	12050710	9335200	7585833	8812633	9543616	4668242
+Pf_new.faa(3)	12554924	16516988	18670400	11068244	7559638	9383955	8967621	4475108
+Pk_new.faa(4)	10630576	14216936	15171666	15119276	7065147	7755552	7672288	3796680
+Pv_new.faa(5)	13373606	17886762	17625266	18767910	15511104	12715380	9854080	4637101
+Py_new.faa(6)	12693568	15497930	19087232	17935242	15344576	19708160	11585299	4592247
+Tg_new.faa(7)	6136370	8267334	9336484	8950216	7593360	9274202	9184494	2270241
+
+# file	average number of 2-paths
+Ht_new.faa(0)	10638928.625
+Pb_new.faa(1)	13851241
+Pc_new.faa(2)	15346806.25
+Pf_new.faa(3)	14947900
+Pk_new.faa(4)	12581580.125
+Pv_new.faa(5)	15607798.75
+Py_new.faa(6)	15129562.625
+Tg_new.faa(7)	7626587.625

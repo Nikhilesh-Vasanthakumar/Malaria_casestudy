@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3290_g               -            232 20051at5794          -            173   6.3e-87  288.6  14.2   1   2   2.8e-56     1e-52  177.2   1.5     1    94     1    94     1   101 0.97 -
+3290_g               -            232 20051at5794          -            173   6.3e-87  288.6  14.2   2   2   2.6e-37   9.3e-34  115.5   5.7    87   173   105   209    95   209 0.85 -
+706_g                -            256 20051at5794          -            173    0.0022   16.6   2.0   1   1   6.1e-07    0.0022   16.6   2.0    46   105   119   178    90   189 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/20051at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pb_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pb/run_apicomplexa_odb10/hmmer_output/initial_run_results/20051at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/20051at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pb_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:22:11 2023
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4443_g               -            286 22083at5794          -            162   2.2e-77  256.7   6.6   1   2      0.12   2.9e+02   -0.6   0.3    41   110    30    99    26   103 0.73 -
+4443_g               -            286 22083at5794          -            162   2.2e-77  256.7   6.6   2   2   8.8e-81   2.2e-77  256.7   6.6     1   161   109   284   109   285 0.90 -
+2645_g               -            376 22083at5794          -            162   9.4e-07   27.0   6.4   1   3      0.11   2.8e+02   -0.5   0.3    11    33    40    62     9    77 0.63 -
+2645_g               -            376 22083at5794          -            162   9.4e-07   27.0   6.4   2   3   6.8e-08   0.00017   19.7   0.6    45   115   212   292   204   302 0.73 -
+2645_g               -            376 22083at5794          -            162   9.4e-07   27.0   6.4   3   3   0.00025      0.61    8.1   0.0   128   159   339   370   321   373 0.69 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/22083at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Py_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Py/run_apicomplexa_odb10/hmmer_output/initial_run_results/22083at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/22083at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Py_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:32:56 2023
+# [ok]

@@ -1,0 +1,47 @@
+{
+    "parameters": {
+        "out_path": "/mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed",
+        "cpu": "1",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "update-data": "False",
+        "use_augustus": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "in": "/mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pb_new.faa",
+        "out": "Pb",
+        "mode": "proteins",
+        "lineage_dataset": "/mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10",
+        "main_out": "/mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pb",
+        "lineage_results_dir": "run_apicomplexa_odb10",
+        "domain": "eukaryota"
+    },
+    "lineage_dataset": {
+        "name": "apicomplexa_odb10",
+        "creation_date": "2020-09-10",
+        "number_of_buscos": "446",
+        "number_of_species": "54"
+    },
+    "versions": {
+        "hmmsearch": 3.1,
+        "busco": "5.4.5"
+    },
+    "results": {
+        "one_line_summary": "C:81.3%[S:79.1%,D:2.2%],F:11.2%,M:7.5%,n:446",
+        "Complete": 81.3,
+        "Single copy": 79.1,
+        "Multi copy": 2.2,
+        "Fragmented": 11.2,
+        "Missing": 7.5,
+        "n_markers": 446,
+        "domain": "eukaryota"
+    }
+}

@@ -1,0 +1,34 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4029_g               -            100 31115at5794          -             73   8.8e-36  121.4   0.4   1   1   6.8e-38   5.7e-35  118.8   0.4     1    73    13    95    13    95 0.90 -
+8809_g               -            100 31115at5794          -             73   8.8e-36  121.4   0.4   1   1   6.8e-38   5.7e-35  118.8   0.4     1    73    13    95    13    95 0.90 -
+14487_g              -             53 31115at5794          -             73   3.8e-14   52.1   0.0   1   1     5e-17   4.2e-14   51.9   0.0    39    73    14    48     9    48 0.95 -
+10255_g              -            533 31115at5794          -             73   8.1e-09   35.0   0.3   1   1   4.4e-11   3.7e-08   32.9   0.3     8    65   372   440   368   446 0.79 -
+12267_g              -            533 31115at5794          -             73   8.1e-09   35.0   0.3   1   1   4.4e-11   3.7e-08   32.9   0.3     8    65   372   440   368   446 0.79 -
+7119_g               -             97 31115at5794          -             73   3.8e-08   32.8   0.5   1   1     6e-11     5e-08   32.4   0.5     4    63     9    74     6    82 0.80 -
+7798_g               -             97 31115at5794          -             73   3.8e-08   32.8   0.5   1   1     6e-11     5e-08   32.4   0.5     4    63     9    74     6    82 0.80 -
+10922_g              -            120 31115at5794          -             73   6.3e-07   28.9   0.0   1   1   9.6e-10     8e-07   28.6   0.0     7    66    37   101    31   106 0.82 -
+11719_g              -            120 31115at5794          -             73   6.3e-07   28.9   0.0   1   1   9.6e-10     8e-07   28.6   0.0     7    66    37   101    31   106 0.82 -
+3945_g               -            149 31115at5794          -             73   3.7e-06   26.5   0.0   1   1   6.6e-09   5.5e-06   25.9   0.0     6    66    80   142    76   146 0.90 -
+8725_g               -            149 31115at5794          -             73   3.7e-06   26.5   0.0   1   1   6.6e-09   5.5e-06   25.9   0.0     6    66    80   142    76   146 0.90 -
+1729_g               -            310 31115at5794          -             73   0.00034   20.2   0.1   1   1   7.7e-07   0.00065   19.3   0.1     4    65    62   128    59   132 0.83 -
+912_g                -            310 31115at5794          -             73   0.00034   20.2   0.1   1   1   7.7e-07   0.00065   19.3   0.1     4    65    62   128    59   132 0.83 -
+1338_g               -            208 31115at5794          -             73   0.00046   19.8   0.1   1   1   9.6e-07    0.0008   19.0   0.1     5    39    19    54    16    60 0.90 -
+1302_g               -            290 31115at5794          -             73   0.00057   19.4   0.1   1   1   1.6e-06    0.0013   18.3   0.1     5    39    19    54    16    60 0.90 -
+1065_g               -            385 31115at5794          -             73   0.00079   19.0   0.0   1   1   1.6e-06    0.0013   18.3   0.0    21    53   220   254   196   265 0.82 -
+1573_g               -            385 31115at5794          -             73   0.00079   19.0   0.0   1   1   1.6e-06    0.0013   18.3   0.0    21    53   220   254   196   265 0.82 -
+10532_g              -            539 31115at5794          -             73     0.021   14.4   0.1   1   2    0.0013       1.1    9.0   0.0    19    44   356   381   341   384 0.81 -
+10532_g              -            539 31115at5794          -             73     0.021   14.4   0.1   2   2     0.085        71    3.1   0.0    40    54   394   408   388   415 0.86 -
+11329_g              -            539 31115at5794          -             73     0.021   14.4   0.1   1   2    0.0013       1.1    9.0   0.0    19    44   356   381   341   384 0.81 -
+11329_g              -            539 31115at5794          -             73     0.021   14.4   0.1   2   2     0.085        71    3.1   0.0    40    54   394   408   388   415 0.86 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/31115at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Tg_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Tg/run_apicomplexa_odb10/hmmer_output/initial_run_results/31115at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/31115at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Tg_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:35:48 2023
+# [ok]

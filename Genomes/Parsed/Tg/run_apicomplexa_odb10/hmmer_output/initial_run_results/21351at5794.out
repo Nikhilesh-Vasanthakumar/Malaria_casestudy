@@ -1,0 +1,31 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+304_g                -           1076 21351at5794          -            206   1.4e-84  282.5   6.9   1   2   7.3e-88   1.4e-84  282.5   6.9     1   196    17   229    17   238 0.91 -
+304_g                -           1076 21351at5794          -            206   1.4e-84  282.5   6.9   2   2       1.3   2.6e+03   -2.5   0.3     5    37   616   650   614   660 0.77 -
+87_g                 -           1076 21351at5794          -            206   1.4e-84  282.5   6.9   1   2   7.3e-88   1.4e-84  282.5   6.9     1   196    17   229    17   238 0.91 -
+87_g                 -           1076 21351at5794          -            206   1.4e-84  282.5   6.9   2   2       1.3   2.6e+03   -2.5   0.3     5    37   616   650   614   660 0.77 -
+10414_g              -           4534 21351at5794          -            206   7.4e-09   35.2  21.6   1   3      0.19   3.7e+02    0.3   1.9    45   105   100   161    98   173 0.76 -
+10414_g              -           4534 21351at5794          -            206   7.4e-09   35.2  21.6   2   3   5.4e-08   0.00011   21.6   7.2    20   154   172   306   158   312 0.68 -
+10414_g              -           4534 21351at5794          -            206   7.4e-09   35.2  21.6   3   3   4.7e-08   9.3e-05   21.8   0.2   112   164   353   407   347   411 0.87 -
+12846_g              -           4534 21351at5794          -            206   7.4e-09   35.2  21.6   1   3      0.19   3.7e+02    0.3   1.9    45   105   100   161    98   173 0.76 -
+12846_g              -           4534 21351at5794          -            206   7.4e-09   35.2  21.6   2   3   5.4e-08   0.00011   21.6   7.2    20   154   172   306   158   312 0.68 -
+12846_g              -           4534 21351at5794          -            206   7.4e-09   35.2  21.6   3   3   4.7e-08   9.3e-05   21.8   0.2   112   164   353   407   347   411 0.87 -
+5048_g               -            969 21351at5794          -            206   1.1e-07   31.3   0.3   1   1   9.4e-11   1.9e-07   30.6   0.3    30   172   334   482   299   500 0.82 -
+5520_g               -            969 21351at5794          -            206   1.1e-07   31.3   0.3   1   1   9.4e-11   1.9e-07   30.6   0.3    30   172   334   482   299   500 0.82 -
+13062_g              -            912 21351at5794          -            206   4.7e-05   22.8   0.0   1   3      0.12   2.4e+02    0.9   0.1     6    29   537   560   532   570 0.85 -
+13062_g              -            912 21351at5794          -            206   4.7e-05   22.8   0.0   2   3      0.14   2.7e+02    0.7   0.0    38    83   622   667   613   670 0.88 -
+13062_g              -            912 21351at5794          -            206   4.7e-05   22.8   0.0   3   3   1.8e-06    0.0035   16.7   0.0    84   175   737   831   725   842 0.81 -
+9604_g               -            912 21351at5794          -            206   4.7e-05   22.8   0.0   1   3      0.12   2.4e+02    0.9   0.1     6    29   537   560   532   570 0.85 -
+9604_g               -            912 21351at5794          -            206   4.7e-05   22.8   0.0   2   3      0.14   2.7e+02    0.7   0.0    38    83   622   667   613   670 0.88 -
+9604_g               -            912 21351at5794          -            206   4.7e-05   22.8   0.0   3   3   1.8e-06    0.0035   16.7   0.0    84   175   737   831   725   842 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/21351at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Tg_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Tg/run_apicomplexa_odb10/hmmer_output/initial_run_results/21351at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/21351at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Tg_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:34:57 2023
+# [ok]

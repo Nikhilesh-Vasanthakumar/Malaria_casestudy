@@ -1,0 +1,18 @@
+# BUSCO version is: 5.4.5 
+# The lineage dataset is: apicomplexa_odb10 (Creation date: 2020-09-10, number of genomes: 54, number of BUSCOs: 446)
+# Summarized benchmarking in BUSCO notation for file /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht_new.faa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:64.6%[S:64.6%,D:0.0%],F:4.0%,M:31.4%,n:446	   
+	288	Complete BUSCOs (C)			   
+	288	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	18	Fragmented BUSCOs (F)			   
+	140	Missing BUSCOs (M)			   
+	446	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	busco: 5.4.5

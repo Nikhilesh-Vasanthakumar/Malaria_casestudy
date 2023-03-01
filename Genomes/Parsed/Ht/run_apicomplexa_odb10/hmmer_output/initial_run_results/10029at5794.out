@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1054_g               -           1803 10029at5794          -            574  1.2e-216  718.4  32.3   1   3     7e-69   6.5e-66  220.7   5.7     1   173   374   573   374   603 0.90 length=1803	scaffold=contig00321	strand=+
+1054_g               -           1803 10029at5794          -            574  1.2e-216  718.4  32.3   2   3   1.3e-31   1.2e-28   97.6   1.2   168   296  1112  1246  1091  1259 0.81 length=1803	scaffold=contig00321	strand=+
+1054_g               -           1803 10029at5794          -            574  1.2e-216  718.4  32.3   3   3  9.5e-125  8.8e-122  405.1  10.2   294   573  1394  1691  1388  1692 0.92 length=1803	scaffold=contig00321	strand=+
+1634_g               -            427 10029at5794          -            574   5.5e-16   55.8  24.6   1   3   2.5e-09   2.3e-06   24.1   3.7   445   551    22   135     4   135 0.82 length=427	scaffold=contig00605	strand=+
+1634_g               -            427 10029at5794          -            574   5.5e-16   55.8  24.6   2   3   5.2e-15   4.8e-12   42.8   3.8   460   551   109   201   106   203 0.87 length=427	scaffold=contig00605	strand=+
+1634_g               -            427 10029at5794          -            574   5.5e-16   55.8  24.6   3   3   1.4e-06    0.0013   14.9   5.2   448   551   196   301   193   322 0.64 length=427	scaffold=contig00605	strand=+
+2397_g               -           1680 10029at5794          -            574   4.6e-10   36.3   0.5   1   2      0.33   3.1e+02   -2.8   0.1   454   481   865   892   860   903 0.50 length=1680	scaffold=contig01109	strand=-
+2397_g               -           1680 10029at5794          -            574   4.6e-10   36.3   0.5   2   2   4.9e-13   4.6e-10   36.3   0.5   450   558  1252  1360  1240  1376 0.80 length=1680	scaffold=contig01109	strand=-
+3211_g               -            411 10029at5794          -            574   1.4e-08   31.4   0.6   1   1   3.9e-11   3.6e-08   30.0   0.1   451   513   309   373   295   378 0.86 length=411	scaffold=contig01799	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/10029at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht/run_apicomplexa_odb10/hmmer_output/initial_run_results/10029at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/10029at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:26:28 2023
+# [ok]

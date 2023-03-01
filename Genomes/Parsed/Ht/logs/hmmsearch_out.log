@@ -1,0 +1,83 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/9982at5794.hmm
+# target sequence database:        /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht_new.faa
+# per-dom hits tabular output:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht/run_apicomplexa_odb10/hmmer_output/initial_run_results/9982at5794.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       9982at5794  [M=392]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   1.4e-118  393.9  19.2   1.1e-111  371.1  11.8    2.1  2  3248_g    length=390	scaffold=contig01838	strand=-
+    3.3e-43  145.8   2.9    4.1e-43  145.4   2.9    1.1  1  3249_g    length=109	scaffold=contig01838	strand=-
+
+
+Domain annotation for each sequence (and alignments):
+>> 3248_g  length=390	scaffold=contig01838	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   0.6   1.6e-10     3e-07       5      49 ..      37      80 ..      34      88 .. 0.81
+   2 !  371.1  11.8  6.2e-115  1.1e-111      46     288 ..     127     389 ..      99     390 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 1.6e-10
+  9982at5794  5 etslelikeavekkdnryilRmlrrikslRlsllpvlsslllkei 49
+                 ts+++i++a+ ++dnryilRml++ik++Rl  ++  ++++++ +
+      3248_g 37 LTSVNHINNAILYRDNRYILRMLKYIKNMRLF-IKNDENIFMPIM 80
+                689***************************98.445666666555 PP
+
+  == domain 2  score: 371.1 bits;  conditional E-value: 6.2e-115
+  9982at5794  46 lkeievllalLvLlyLldk...keaaelses....laklkrrslDllaakvyFyysrvleLsgk...vreelleayrkavlhrdimtqavvlnlilrny 134
+                  +eiev+++++vLly++dk    ea++ls++    ++kl+rrslD+++akvyFyys+v+eLsgk   vr++ll++yr+a+lhrd+mtqav+lnl+lr+y
+      3248_g 127 HPEIEVFFYIMVLLYVIDKmlyAEAMDLSQVivnrITKLNRRSLDYINAKVYFYYSWVHELSGKiseVRQNLLSIYRNACLHRDVMTQAVILNLLLRDY 225
+                 58****************944457888887611115689***********************97333699***************************** PP
+
+  9982at5794 135 ik..lydlalkllsktsfpenlssnaqqarylyylgkilavqLeYseafskltqalrkaPqn...algFkLaatKmaivVeLLmgdiPersiFnnkelr 228
+                 ik  lydla+k++sktsfpenlssnaq+aryl+y+gkila+qL+Yse++sk+tqa+rkaPqn   a+gFkLaatKm+ivVeLLmgdiP+rs+F+nk + 
+      3248_g 226 IKnnLYDLAVKFVSKTSFPENLSSNAQYARYLFYIGKILAIQLDYSESHSKITQAIRKAPQNsqsAKGFKLAATKMEIVVELLMGDIPDRSLFSNKYMS 324
+                 *7447*******************************************************8644489******************************** PP
+
+  9982at5794 229 kkLvpYkevvlavrsgdlkkfakvle.....fekdgtlllikrlhhnVikagLriinlsysrisl 288
+                 kkL+pYk+vv+avr+gd++kfakv++     f++dg++lli+r+hhnVik++Lriinlsysris+
+      3248_g 325 KKLIPYKHVVSAVRNGDINKFAKVMNdynklFIHDGVYLLIRRIHHNVIKTALRIINLSYSRISI 389
+                 *************************88888899******************************97 PP
+
+>> 3249_g  length=109	scaffold=contig01838	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.4   2.9   2.2e-46   4.1e-43     295     392 .]       1     106 [.       1     106 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 145.4 bits;  conditional E-value: 2.2e-46
+  9982at5794 295 lglesaedvegivaKAIlDgvieatidhd.qyleskanvdlyaseeplkafhkRiaFcLqLysdAvkamqypdeee.......kerkkalqeelaraee 385
+                 +g+es+ d+egi+aKAI+Dgviea id++ q ++skan+d+y ++ep+k+fhkRiaFcLqLysdA++amqypde++       kerk+++qeela+aee
+      3249_g   1 IGVESSLDIEGITAKAIHDGVIEAVIDYEnQSVKSKANTDIYVTSEPMKTFHKRIAFCLQLYSDAIRAMQYPDENDkkeneeaKERKMRQQEELAQAEE 99 
+                 699************************97589****************************************987622222225799************ PP
+
+  9982at5794 386 edlgddk 392
+                 +d+gdd+
+      3249_g 100 GDIGDDD 106
+                 *****95 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (392 nodes)
+Target sequences:                         3720  (2728977 residues searched)
+Passed MSV filter:                       655  (0.176075); expected 74.4 (0.02)
+Passed bias filter:                       41  (0.0110215); expected 74.4 (0.02)
+Passed Vit filter:                         5  (0.00134409); expected 3.7 (0.001)
+Passed Fwd filter:                         2  (0.000537634); expected 0.0 (1e-05)
+Initial search space (Z):               3720  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.07
+# Mc/sec: 15282.27
+//
+[ok]

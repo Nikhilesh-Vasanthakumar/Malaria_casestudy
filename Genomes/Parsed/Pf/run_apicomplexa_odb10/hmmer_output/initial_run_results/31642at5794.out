@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4036_g               -            117 31642at5794          -             82   9.9e-48  158.2   0.1   1   1   9.4e-51   1.2e-47  157.9   0.1     1    82     1    84     1    84 0.97 -
+2604_g               -            127 31642at5794          -             82   2.4e-09   35.2   0.0   1   1   2.7e-12   3.5e-09   34.7   0.0     6    68     4    67     1    77 0.90 -
+2777_g               -            127 31642at5794          -             82   1.8e-06   25.9   2.4   1   1   6.9e-09     9e-06   23.7   2.4    15    70    12    77     1    87 0.73 -
+4633_g               -            104 31642at5794          -             82   5.4e-06   24.4   0.0   1   1   5.8e-09   7.5e-06   24.0   0.0    15    68    14    69     8    77 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/31642at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pf_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pf/run_apicomplexa_odb10/hmmer_output/initial_run_results/31642at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/31642at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pf_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:29:23 2023
+# [ok]

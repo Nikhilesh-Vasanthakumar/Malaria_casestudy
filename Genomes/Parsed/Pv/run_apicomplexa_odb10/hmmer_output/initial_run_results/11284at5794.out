@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4017_g               -            468 11284at5794          -            365  2.6e-190  630.1   6.0   1   2  8.5e-104  1.6e-100  334.7   4.6     7   183    46   227    32   239 0.95 -
+4017_g               -            468 11284at5794          -            365  2.6e-190  630.1   6.0   2   2   9.3e-92   1.8e-88  295.1   0.0   178   365   243   438   235   438 0.95 -
+79_g                 -            535 11284at5794          -            365   1.9e-35  120.6   4.8   1   2      0.73   1.4e+03   -4.0   0.1   345   362    51    67    19    83 0.60 -
+79_g                 -            535 11284at5794          -            365   1.9e-35  120.6   4.8   2   2   9.8e-39   1.9e-35  120.6   4.8     5   364   122   509   118   510 0.80 -
+4557_g               -           1324 11284at5794          -            365   3.8e-11   40.6   4.8   1   2   4.3e-12   8.1e-09   33.0   0.8    21   181    51   230    47   238 0.77 -
+4557_g               -           1324 11284at5794          -            365   3.8e-11   40.6   4.8   2   2   8.8e-05      0.17    8.9   0.2   296   364  1097  1167  1076  1168 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/11284at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pv_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pv/run_apicomplexa_odb10/hmmer_output/initial_run_results/11284at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/11284at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pv_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:31:13 2023
+# [ok]

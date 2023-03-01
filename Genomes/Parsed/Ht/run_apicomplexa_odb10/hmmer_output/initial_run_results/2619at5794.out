@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+564_g                -            938 2619at5794           -            784         0 1096.7  38.1   1   4  1.2e-181    9e-179  593.9   5.4    88   415     1   339     1   354 0.96 length=938	scaffold=contig00139	strand=-	adjustedToFrame=2
+564_g                -            938 2619at5794           -            784         0 1096.7  38.1   2   4  1.7e-134  1.3e-131  438.0   7.2   408   659   377   663   374   676 0.90 length=938	scaffold=contig00139	strand=-	adjustedToFrame=2
+564_g                -            938 2619at5794           -            784         0 1096.7  38.1   3   4   6.3e-22   4.7e-19   65.7   2.0   656   776   711   852   703   860 0.70 length=938	scaffold=contig00139	strand=-	adjustedToFrame=2
+564_g                -            938 2619at5794           -            784         0 1096.7  38.1   4   4   4.7e-05     0.035    9.9   0.9   747   779   885   924   871   929 0.72 length=938	scaffold=contig00139	strand=-	adjustedToFrame=2
+1419_g               -           1214 2619at5794           -            784   1.7e-47  159.8  19.9   1   4     2e-14   1.5e-11   40.9   0.0    23   179    54   216    23   246 0.78 length=1214	scaffold=contig00497	strand=+	adjustedToFrame=2
+1419_g               -           1214 2619at5794           -            784   1.7e-47  159.8  19.9   2   4      0.11        79   -1.2   0.0   103   143   313   355   282   387 0.73 length=1214	scaffold=contig00497	strand=+	adjustedToFrame=2
+1419_g               -           1214 2619at5794           -            784   1.7e-47  159.8  19.9   3   4   6.6e-22   4.9e-19   65.6   4.6   234   428   412   613   397   618 0.82 length=1214	scaffold=contig00497	strand=+	adjustedToFrame=2
+1419_g               -           1214 2619at5794           -            784   1.7e-47  159.8  19.9   4   4   3.1e-20   2.3e-17   60.1   2.9   418   688   633   907   619   928 0.84 length=1214	scaffold=contig00497	strand=+	adjustedToFrame=2
+3218_g               -            751 2619at5794           -            784   3.5e-22   76.1   4.8   1   3     4e-19   2.9e-16   56.5   0.0    23   177   148   303   128   318 0.84 length=751	scaffold=contig01806	strand=-	adjustedToFrame=3
+3218_g               -            751 2619at5794           -            784   3.5e-22   76.1   4.8   2   3   3.4e-08   2.5e-05   20.3   0.7   310   428   552   671   540   693 0.71 length=751	scaffold=contig01806	strand=-	adjustedToFrame=3
+3218_g               -            751 2619at5794           -            784   3.5e-22   76.1   4.8   3   3      0.16   1.2e+02   -1.8   0.0   461   478   726   743   723   750 0.78 length=751	scaffold=contig01806	strand=-	adjustedToFrame=3
+1623_g               -           1144 2619at5794           -            784   4.7e-15   52.5  45.3   1   4   0.00016      0.12    8.1   0.2   235   278    93   138    35   163 0.82 length=1144	scaffold=contig00601	strand=+
+1623_g               -           1144 2619at5794           -            784   4.7e-15   52.5  45.3   2   4   6.1e-09   4.5e-06   22.8   0.9   337   442   352   457   344   475 0.82 length=1144	scaffold=contig00601	strand=+
+1623_g               -           1144 2619at5794           -            784   4.7e-15   52.5  45.3   3   4   1.5e-08   1.1e-05   21.5   1.8   473   556   678   764   638   771 0.77 length=1144	scaffold=contig00601	strand=+
+1623_g               -           1144 2619at5794           -            784   4.7e-15   52.5  45.3   4   4   1.2e-05    0.0092   11.8  23.4   531   693   774   972   755   996 0.63 length=1144	scaffold=contig00601	strand=+
+977_g                -            891 2619at5794           -            784   1.5e-12   44.2   0.6   1   2    0.0047       3.5    3.3   0.0    32    70   230   274   206   326 0.73 length=891	scaffold=contig00287	strand=+
+977_g                -            891 2619at5794           -            784   1.5e-12   44.2   0.6   2   2   2.1e-13   1.5e-10   37.6   0.2   426   525   438   536   362   553 0.92 length=891	scaffold=contig00287	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/2619at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht/run_apicomplexa_odb10/hmmer_output/initial_run_results/2619at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/2619at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Ht_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:26:50 2023
+# [ok]

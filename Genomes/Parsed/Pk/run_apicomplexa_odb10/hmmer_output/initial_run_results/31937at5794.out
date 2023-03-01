@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1557_g               -            108 31937at5794          -             70   5.9e-08   30.7   0.9   1   2   5.1e-11   6.3e-08   30.6   0.2     6    45    21    60    16    65 0.92 -
+1557_g               -            108 31937at5794          -             70   5.9e-08   30.7   0.9   2   2       2.5   3.1e+03   -3.6   0.0    48    55    77    84    71    85 0.66 -
+1791_g               -            201 31937at5794          -             70   1.8e-06   26.0   2.5   1   1     5e-08   6.2e-05   21.1   2.5     2    50     3    51     2    81 0.72 -
+1407_g               -            101 31937at5794          -             70   3.1e-06   25.2   0.7   1   1   4.2e-09   5.3e-06   24.5   0.6    10    48    13    51     6    70 0.87 -
+837_g                -            664 31937at5794          -             70   0.00018   19.6   0.0   1   1   4.4e-07   0.00054   18.0   0.0     9    61    24    86    18    88 0.69 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/31937at5794.hmm
+# Target file:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pk_new.faa
+# Option settings: hmmsearch --domtblout /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pk/run_apicomplexa_odb10/hmmer_output/initial_run_results/31937at5794.out --cpu 1 /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/busco_downloads/lineages/apicomplexa_odb10/hmms/31937at5794.hmm /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed/Pk_new.faa 
+# Current dir:     /mnt/e/Bioinformatics/Semester2/BINP29/Malaria Project/Genomes/Parsed
+# Date:            Wed Mar  1 19:30:40 2023
+# [ok]
